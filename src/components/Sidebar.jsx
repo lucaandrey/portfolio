@@ -3,15 +3,20 @@ import SocialNetworks from "./SocialNetworks";
 import Avatar from "../img/eu.jpg";
 
 import "../styles/components/sidebar.sass";
+import InformationContainer from "./InformationContainer";
 const Sidebar = () => {
   return (
     <aside id="sidebar">
       <img src={Avatar} alt="Luca Andrey Costa" />
       <p className="title">Full Stack Java Developer</p>
       <SocialNetworks />
-      <p>Meus contatos</p>
-      <a href="" className="btn">
-        Download currículo
+      <InformationContainer />
+      <a
+        href="https://drive.google.com/file/d/1NEjhkq4iTy1juauNuuHn74fFuCX-s7QT/view?usp=sharing"
+        className="btn"
+        target="_blank"
+      >
+        Ver currículo
       </a>
     </aside>
   );
