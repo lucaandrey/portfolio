@@ -10,18 +10,50 @@ import {
 import { SiSpringboot } from "react-icons/si";
 
 const technologies = [
-  { id: "java", name: "java", icon: <DiJava />, texto: "auhsduiahsh" },
+  {
+    id: "java",
+    name: "java",
+    icon: <DiJava />,
+    texto: "Main Skills: Collections, Lambdas, POO, StreamAPI, Strings",
+  },
   {
     id: "spring",
-    name: "SpringBoot",
+    name: "Spring",
     icon: <SiSpringboot />,
-    texto: "auhsduiahsh",
+    texto:
+      "Main Skills: SpringBoot, APIs Rest, Microsevices, Spring Security, jUnit ",
   },
-  { id: "mysql", name: "MySQL", icon: <DiMysql />, texto: "auhsduiahsh" },
-  { id: "js", name: "JavaScript", icon: <DiJsBadge />, texto: "auhsduiahsh" },
-  { id: "react", name: "React", icon: <DiReact />, texto: "auhsduiahsh" },
-  { id: "css", name: "CSS3", icon: <DiCss3 />, texto: "auhsduiahsh" },
-  { id: "html", name: "HTML5", icon: <DiHtml5 />, texto: "auhsduiahsh" },
+  {
+    id: "mysql",
+    name: "MySQL",
+    icon: <DiMysql />,
+    texto: "Main Skills: Manipular dados, ManyToOne, OneToMany, ManyToMany",
+  },
+  {
+    id: "js",
+    name: "JavaScript",
+    icon: <DiJsBadge />,
+    texto:
+      "Main Skills: Codigo funcional, manipulação de arrays e objetos, filters, map, Etc",
+  },
+  {
+    id: "react",
+    name: "React",
+    icon: <DiReact />,
+    texto: "Main Skills: Redux, Hooks, Router, Consumo de Apis e mais",
+  },
+  {
+    id: "css",
+    name: "CSS3",
+    icon: <DiCss3 />,
+    texto: "Main Skills: Sass, SCSS, BootStrap",
+  },
+  {
+    id: "html",
+    name: "HTML5",
+    icon: <DiHtml5 />,
+    texto: "Main SKills: Conhecimentos sólidos de HTML",
+  },
 ];
 
 const TecnologiesContainer = () => {
